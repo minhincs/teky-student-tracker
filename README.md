@@ -7,12 +7,11 @@ Sản phẩm Python của ứng viên Nguyễn Lê Minh cho thử thách ứng v
 - [x] Tính điểm trung bình và xếp loại học lực tự động.
 - [x] Hiển thị danh sách tổng hợp theo ID.
 - [x] Tìm kiếm gần đúng theo tên, không phân biệt chữ hoa/chữ thường.
-- [x] Menu thao tác bằng vòng lặp.
-- [x] Thêm, xem, sửa và xóa dữ liệu.
-- [x] Giao diện Tkinter.
-- [x] Lưu dữ liệu bằng SQLite.
-- [x] Tổ chức code theo OOP.
-- [ ] ~~Tích hợp API, threading và đóng gói bằng PyInstaller.~~
+- [x] (Nâng cao 1) Menu thao tác bằng vòng lặp với chức năng thêm, xem, sửa và xóa.
+- [x] (Nâng cao 2) Giao diện Tkinter.
+- [x] (Nâng cao 3) Lưu dữ liệu bằng SQLite.
+- [x] (Nâng cao 4) Tổ chức code theo OOP.
+- [ ] ~~(Nâng cao 5) Tích hợp API, threading và đóng gói bằng PyInstaller.~~
 
 ## Yêu cầu hệ thống
 - Python 3.10 trở lên.
@@ -52,4 +51,3 @@ teky-python/
 - `student_tracker_gui.py`: giao diện Tkinter dùng chung logic và dữ liệu.
 - `students.db`: cơ sở dữ liệu SQLite chứa 40 học sinh mẫu.
 - `.gitignore`: loại bỏ cache và bytecode Python khỏi Git.
-

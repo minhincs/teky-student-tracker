@@ -103,7 +103,7 @@ class StudentRepository:
 
         with self._connect() as connection:
             rows = connection.execute(
-                "SELECT * FROM students ORDER BY name COLLATE NOCASE, id"
+                "SELECT * FROM students ORDER BY id"
             ).fetchall()
         return [self._from_row(row) for row in rows]
 

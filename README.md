@@ -12,7 +12,7 @@ Sản phẩm Python của ứng viên Nguyễn Lê Minh cho thử thách ứng v
 - [x] Giao diện Tkinter.
 - [x] Lưu dữ liệu bằng SQLite.
 - [x] Tổ chức code theo OOP.
-- [ ] Tích hợp API, threading và đóng gói bằng PyInstaller.
+- [ ] ~~Tích hợp API, threading và đóng gói bằng PyInstaller.~~
 
 ## Yêu cầu hệ thống
 - Python 3.10 trở lên.
